@@ -1,0 +1,109 @@
+\documentclass{memoir}
+\usepackage[margin=0.5in]{geometry}
+\thispagestyle{empty}
+
+
+% For Arial Font
+\usepackage{helvet} 
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{tabularx}
+\newcolumntype{b}{X}
+\newcolumntype{s}{>{\hsize=.5\hsize}X}
+
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{3em}{}[{\titlerule[0.3pt]}]
+
+
+\begin{document}
+
+\begin{center}
+\Large{Lorenz Hofmann-Wellenhof}
+\end{center}
+\small{lorenzhofmann.w@gmail.com}
+\hfill
+\small{github.com/LorenzHW}
+
+
+\section*{EXPERIENCE}
+\textbf{Cresta}
+\hfill
+\textbf{Remote} \\
+Software Engineer
+\hfill
+since January 2022
+\begin{itemize}[noitemsep]
+  \item \textbf{Led the front-end development} of \href{https://cresta.com/product/insights/}{Cresta Insights}, collaborating closely with design and product management teams to deliver an analytics tool used by thousands of call center managers. My technical execution played a significant role in enhancing the tool's functionality and reliability, contributing to the company's \textbf{Annual Recurring Revenue (ARR)}.
+  \item \textbf{Led the creation of a scalable end-to-end (E2E) testing infrastructure}, collaborating with cross-functional teams to design a framework capable of supporting comprehensive testing across all B2B customer interfaces. This initiative significantly enhanced product quality and reliability. Currently, I advise the QA team on strategic testing processes, emphasizing \textbf{scalability and continuous enhancement} to align with customer needs.
+  \item Implemented and oversaw front-end development for \href{https://cresta.com/videos/cresta-opera-demo/}{Cresta Opera}: Collaborated closely with designers, product managers, and engineering teams on a wide array of features, including the development of a \textbf{GenAI-powered wizard} that simplifies the rule creation process for behavior tracking. My work played a crucial role in enhancing the platform's overall self-serve capabilities and accessibility, significantly improving efficiency for call center managers and contributing to the broader success and usability of Cresta Opera.
+  \item \textbf{Wrote and published a comprehensive \href{https://cresta.com/blog/streamlining-front-end-development-insights-from-crestas-tech-stack/}{blog post} detailing our front-end setup}, making it publicly available on the company's website.
+  \item Used technologies: Node.js, React, TypeScript, Python, Golang, Protocol Buffer, gRPC, Postgres
+\end{itemize}
+
+\noindent \textbf{Senacor Technologies}
+\hfill
+\textbf{Berlin, Germany} \\
+Software Engineer
+\hfill
+October 2020 - December 2021
+\begin{itemize}[noitemsep]
+  \item \textbf{Core member of an agile team}, handling the development of a B2B application for one of Senacor’s biggest client in retail banking
+  \item Implemented a \textbf{robust newsletter service} that is used for communication between the retail bank and all its partners
+  \item Responsible for the \textbf{software- and database design} for a tool that is used by all customer advisers for planning an upcoming fiscal year; most important tool for the client in 2021
+  \item In charge of \textbf{replacing a legacy file upload system with a new API} and the migration of over 1 million files
+  \item \textbf{Optimized and re-engineered the existing codebase} of the microservice architecture to improve the quality of code and performance
+  \item Collaborated closely with (technical) product owners and team members to \textbf{estimate the complexity of future features}
+  \item \textbf{Onboarded and mentored new engineers} to help them to come up to speed with development and business knowledge
+  \item Used technologies: Java, TypeScript, Spring Boot, Angular, OpenShift, Postgres
+\end{itemize}
+
+\noindent \textbf{Google Summer of Code}
+\hfill
+\textbf{Remote} \\
+Google Summer of Code participant with API Client Tools at Google
+\hfill
+May - August 2019
+\begin{itemize}[noitemsep]
+  \item Implemented the open-source tool \textbf{\href{https://www.github.com/google/gnostic-grpc}{gnostic-grpc}}: A tool that converts OpenAPI descriptions into a description of a gRPC service that can be used to implement that API using gRPC-JSON Transcoding
+  \item Made major contributions to \textbf{\href{https://www.github.com/google/gnostic}{gnostic}} in order to make an OpenAPI description processable by gnostic-grpc
+  \item Representation of this work at the \textbf{API specification conference} in Vancouver by Tim Burks in his \href{https://asc2019.sched.com/event/T6u9}{workshop} 
+  \item Wrote a \textbf{Medium \href{https://levelup.gitconnected.com/how-to-build-a-rest-api-with-grpc-and-get-the-best-of-two-worlds-9a4e491f30ae}{blog post}} that accumulated more than \textbf{32000 readers} 
+  \item Mentored by \textbf{Tim Burks and Noah Dietz}, software engineers at Google
+  \item Used technologies: Golang, Protocol Buffers, gRPC, OpenAPI, envoy
+\end{itemize}
+
+\section*{EDUCATION}
+\noindent \textbf{University of Passau}
+\hfill
+\textbf{Passau, Germany} \\
+M. Sc. Computer Science
+\hfill
+October 2014 - February 2020
+\begin{itemize}[noitemsep]
+  \item Grade: 1.8 $\sim$ 3.2 (GPA); \textbf{top 20\%} of 2017 graduation class
+  \item Relevant coursework: Algorithms and Data Structures, Agile Software Development, Computer Networks, Enterprise Software
+Architecture,  Machine Learning, Computer Architecture, Programming in Java, Computer Engineering
+\end{itemize}
+
+\noindent \textbf{Stevens Institute of Technology}
+\hfill
+\textbf{New York City, USA} \\
+Education abroad in M. Sc. Computer Science
+\hfill
+August — December 2018
+\begin{itemize}[noitemsep]
+  \item 4.0 GPA; \textbf{top 3} project in Machine Learning class
+\end{itemize}
+
+\section*{SKILLS}
+\begin{itemize}[noitemsep]
+  \item \textbf{Languages \& Technologies:} Node.js, TypeScript/JavaScript, Python, Java, Golang, Protocol Buffers, HTML/CSS
+  \item \textbf{Infrastructure:} AWS, Git, DynamoDB, MySQL, Postgres, Docker
+  \item \textbf{Frameworks:} Django, Spring Boot, Angular, Vue.js, GraphQL, gRPC, OpenAPI, Keras, tensorflow
+\end{itemize}
+
+\end{document}
